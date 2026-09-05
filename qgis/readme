@@ -1,0 +1,21 @@
+```markdown
+# QGIS Visualisation
+
+QGIS was used to visualise and validate the spatial results produced in PostgreSQL/PostGIS.
+
+The main spatial processing and area calculations were performed in PostGIS. QGIS was primarily used for cartographic presentation, layer inspection and final map export.
+
+## PostgreSQL Connection
+
+QGIS was connected directly to the PostgreSQL/PostGIS database.
+
+Important spatial tables and views used during mapping included:
+
+```text
+ssa_countries
+ssa_boundary
+ssa_protected_areas
+ssa_protected_coverage
+species_protection_map
+species_protection_gaps
+country_protection_map
