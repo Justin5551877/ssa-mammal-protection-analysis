@@ -1,1 +1,24 @@
+# QGIS temporary files
+*.qgz~
+*.qgs~
 
+# PostgreSQL dumps
+*.dump
+*.backup
+
+# Large GIS datasets
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+*.geojson
+
+# Raster / spatial intermediates
+*.tif
+*.tiff
+
+# OS files
+.DS_Store
+Thumbs.db
